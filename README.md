@@ -1,19 +1,30 @@
-# ABS Protocol v1.0 Used to compare GPT vs Gemini in real-world prediction tasks
+# ABS Protocol v1.0
 
 A standardized evaluation protocol for AI behavior.
 
-## What is ABS?
+## Status
 
-ABS defines:
+⚠️ This is a minimal prototype.
 
-* A unified output schema
-* A scoring system
-* A task-based evaluation interface
+* Uses mock model outputs
+* Demonstrates schema enforcement and scoring
+* Includes a basic real-world verification loop (BTC price)
 
-## Quick Start
+## What ABS Does
+
+* Enforces a structured output schema
+* Scores outputs across defined dimensions
+* Enables task-based evaluation
+
+## What ABS Does NOT Do (Yet)
+
+* No real model API integration
+* No long-term accuracy tracking
+* Limited verification logic
+
+## Run Demo
 
 ```bash
-git clone https://github.com/yourname/abs-protocol
 cd abs-protocol
 pip install -r requirements.txt
 python examples/demo_btc.py
