@@ -1,0 +1,10 @@
+{
+  "ABS_version": "1.0",
+  "output_schema": {
+    "claim": "string",
+    "evidence": "string",
+    "uncertainty": "boolean",
+    "action": "string",
+    "confidence": "float (0-1)"
+  }
+}
