@@ -1,5 +1,5 @@
-# ABS Protocol v1.0
-Used to compare GPT vs Gemini in real-world prediction tasks
+# ABS Protocol v1.0 Used to compare GPT vs Gemini in real-world prediction tasks
+
 A standardized evaluation protocol for AI behavior.
 
 ## What is ABS?
